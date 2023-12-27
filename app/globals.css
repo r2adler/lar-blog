@@ -9,6 +9,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     color: var(--color-text);
     background: var(--color-bg);
+    line-height: 1;
 }
 
 a {
