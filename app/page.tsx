@@ -1,8 +1,8 @@
-import {HTag} from '@/components/HTag/HTag'
+import {HTag} from '@/components/ui/HTag/HTag'
 import styles from './page.module.css'
-import {Button} from '@/components/Button/Button';
-import {PTag} from '@/components/PTag/PTag';
-import { Tag } from '@/components';
+import {Button} from '@/components/ui/Button/Button';
+import {PTag} from '@/components/ui/PTag/PTag';
+import {Card, Tag} from '@/components';
 
 export default function Home() {
   return (
@@ -17,6 +17,14 @@ export default function Home() {
       <Tag size={'M'} color={'red'}>red</Tag>
       <Tag size={'S'} color={'green'}>green</Tag>
       <Tag color={'primary'}>primary</Tag>
+      <Card
+        tag={'Front-end'}
+        like={'4'}
+        month={'1'}
+        title={'Как работать с CSS Grid'}
+        text={'Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы..'}
+        minutes={'3'}
+      />
     </main>
   )
 }

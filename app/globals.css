@@ -1,37 +1,39 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-  font-family: "Noto Sans", sans-serif;
-  color: var(--color-text);
-  background: var(--color-bg);
+    font-family: "Noto Sans", sans-serif;
+    color: var(--color-text);
+    background: var(--color-bg);
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 :root {
-  --color-text: rgba(59, 67, 78, 1);
-  --color-bg: rgba(245, 246, 248, 1);
-  --color-black: rgb(0, 0, 0);
-  --color-white: rgb(255, 255, 255);
-  --color-primary: rgba(118, 83, 252, 1);
-  --color-primary-hover: #684adc;
-  --color-red: rgb(255, 0, 0);
-  --color-green: rgb(55, 148, 0);
-  --color-green-light: rgb(180, 255, 134);
-  --color-gray-light: #ebebeb;
-  --color-gray: rgba(179, 192, 217, 1);
+    --color-text: rgba(59, 67, 78, 1);
+    --color-text-light: rgba(110, 110, 110, 1);
+    --color-bg: rgba(245, 246, 248, 1);
+    --color-black: rgba(44, 44, 44, 1);
+    --color-white: rgb(255, 255, 255);
+    --color-primary: rgba(118, 83, 252, 1);
+    --color-primary-hover: #684adc;
+    --color-red: rgb(255, 0, 0);
+    --color-green: rgb(55, 148, 0);
+    --color-green-light: rgb(180, 255, 134);
+    --color-gray-light: #ebebeb;
+    --color-gray: rgba(179, 192, 217, 1);
+    --color-gray-dark: rgba(128, 128, 128, 1);
 
-  --font-family: "Noto Sans", sans-serif;
+    --font-family: "Noto Sans", sans-serif;
 }

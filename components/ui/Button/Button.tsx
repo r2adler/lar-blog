@@ -1,7 +1,7 @@
 import cls from './Button.module.scss'
 import {ButtonProps} from './Button.props'
 import clsx from 'clsx';
-import ArrowIcon from '../../public/arrowIcon.svg'
+import ArrowIcon from '../../../public/arrowIcon.svg'
 
 export const Button = (props: ButtonProps) => {
   const {

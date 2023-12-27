@@ -6,10 +6,11 @@ export const PTag = (props: PTagProps) => {
   const {
     size = 'M',
     children,
+    className,
     ...rest
   } = props
 
-  const paragraphCN = clsx(cls.paragraph, cls[size])
+  const paragraphCN = clsx(cls.paragraph, cls[size], className)
   return (
     <p className={paragraphCN} {...rest}>
       {children}

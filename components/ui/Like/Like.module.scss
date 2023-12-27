@@ -1,0 +1,13 @@
+.like {
+  color: var(--color-gray-dark);
+  font-size: 12px;
+  cursor: pointer;
+
+  .icon {
+    margin-left: 5px;
+
+    svg {
+      stroke: var(--color-gray-dark);
+    }
+  }
+}

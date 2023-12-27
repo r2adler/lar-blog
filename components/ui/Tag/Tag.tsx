@@ -1,6 +1,6 @@
-import {TagProps} from './Tag.props'
 import cls from './Tag.module.scss'
 import clsx from 'clsx';
+import {TagProps} from './Tag.props';
 
 export const Tag = (props: TagProps) => {
   const {
@@ -12,7 +12,7 @@ export const Tag = (props: TagProps) => {
     ...rest
   } = props
 
-  const tagCN = clsx(cls.tag, cls[size], cls[color])
+  const tagCN = clsx(cls.tag, cls[size], cls[color], className)
 
   return (
     <div className={tagCN} {...rest}>
